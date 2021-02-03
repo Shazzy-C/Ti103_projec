@@ -44,8 +44,3 @@ while True:
         print("Vous avez gagné !!! ")
         break
 
-
-
-
-
-
