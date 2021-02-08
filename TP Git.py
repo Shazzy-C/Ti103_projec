@@ -9,10 +9,12 @@ entre 1 et 1000.
 6. Vous devez tester que le nombre entré est correct. Par exemple, retournez une erreur si ce
 qu’entre l’utilisateur n’est pas un nombre, ou n’est pas compris entre 1 et 1000.
 """
+import random           #nombre aleatoire
 
+import TP_import
 
-chiffre = 777
-
+chiffre = random.randint(1, 1000)
+print(TP_import.naruto(TP_import.ma_variable))
 while True:
 
     entree = input("Entrez un nombre entre 1 et 1000 puis entrée, faites 'q' puis entrée pour quitter: ")
