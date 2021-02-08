@@ -15,6 +15,7 @@ import TP_import
 
 chiffre = random.randint(1, 1000)
 print(TP_import.naruto(TP_import.ma_variable))
+
 while True:
 
     entree = input("Entrez un nombre entre 1 et 1000 puis entrée, faites 'q' puis entrée pour quitter: ")
